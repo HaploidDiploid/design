@@ -3,7 +3,7 @@ Logo: assets/img/logo.jpg
 Tagline: Yes. It's me.
 Social:
     - title: My Github repo.
-      url: https://github.com/HaploidDiploid/designv3
+      url: https://github.com/HaploidDiploid/design
       icon: github
     - title: My Instagram page.
       url: https://www.instagram.com/jocke_tar_bilder/
