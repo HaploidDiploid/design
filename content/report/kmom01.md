@@ -3,10 +3,11 @@ Title: kmom01
 Description: Part 1
 ---
 
-Course part 01/Kmom01
+Kmom01
 ==================
 
-## Frågor och Svar:
+## Frågor och Svar: 
+
 
 * Har du jobbat med ramverk eller andra CMS:er tidigare?
 

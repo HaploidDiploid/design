@@ -1,1 +1,1 @@
-https://github.com/HaploidDiploid/designv3
+https://github.com/HaploidDiploid/design.git
