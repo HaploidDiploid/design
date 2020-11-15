@@ -1,19 +1,17 @@
 
 
-    <!-- Förstasidan portfolio/content/index.md skall innehålla en hälsning/presentation av/om dig tillsammans med minst en bild som representerar dig. -->
+    <!-- Jobba vidare med eller skapa ett nytt tema i me/portfolio/themes/. -->
 
-    <!-- Uppdatera länken i footern så den länkar till ditt egna Github-repo. -->
+    <!-- Temat ska bestå utav en style.scss som är huvudfilen för ditt tema. Här importerar du eventuella moduler du skapar. -->
 
-    <!-- Byt ut flash-bilden som finns på samtliga sidor. -->
+    <!-- Temat ska ladda in modulen normalize.css. -->
 
-    <!-- Skapa en report/kmom01.md där du påbörjar ett utkast till din redovisningstext för kursmomentet. -->
+    <!-- Temat ska ladda in minst en extern font via t.ex Google Fonts. -->
 
-    <!-- Skapa ditt eget tema, se “Vad är Pico? - Tema” för mer information. -->
+    <!-- Temat ska använda sig av minst tre ikoner via t.ex Font Awesome. -->
 
-    <!-- I din portfolio-mapp (me/portfolio/), skapa en fil som heter github.txt som innehåller enbart länken till ditt Github-repo (ex: https://github.com/dbwebb-se/design-v3) -->
+    Jobba vidare med ditt tema. Du behöver inte styla jättemycket, det kommer fler möjligheter under kursen. Men, det måste vara ett hyfsat gott grundtema så att webbplatsen går att använda.
 
-    <!-- Publicera dina filer till studentservern, dbwebb publish me, och kontrollera att allt fungerar som det ska. -->
+    Använd någon typ av funktionalitet som SASS erbjuder utöver CSS, t.ex. operatorer, variabler, arv eller nästlade regler.
 
-    <!-- Commit:a dina ändringar och lägg till en ny tagg (1.0.*).
-
-    Push:a repot till GitHub, inklusive taggarna. -->
+    Testa att gå in på din sida via telefonen. Det behöver inte vara perfekt, men en viss spacing kanske fungerar på desktop men inte så bra på telefonen.
