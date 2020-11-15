@@ -4,7 +4,11 @@ Tagline: Yes. It's me.
 Social:
     - title: My Github repo.
       url: https://github.com/HaploidDiploid/design
+<<<<<<< HEAD
       icon: fab fa-github
+=======
+      icon: github
+>>>>>>> bdb961287758b977788a0d9de9ac6e79292c1389
     - title: My Instagram page.
       url: https://www.instagram.com/jocke_tar_bilder/
       icon: fab fa-instagram
