@@ -1,10 +1,14 @@
 {
   "name": "themes",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint \"**/*.scss\"",
+    "style": "sass jocke/scss/style.scss jocke/css/style.css --no-source-map",
+    "style-min": "sass jocke/scss/style.scss jocke/css/style.min.css --no-source-map --style compressed",
+    "watch": "sass jocke/scss/style.scss jocke/css/style.css --no-source-map --watch",
+    "watch-min": "sass jocke/scss/style.scss jocke/css/style.min.css --no-source-map --style compressed --watch"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +18,9 @@
     "sass": "^1.29.0",
     "stylelint": "^13.7.2",
     "stylelint-config-sass-guidelines": "^7.1.0"
-  }
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1"
+  },
+  "description": ""
 }
