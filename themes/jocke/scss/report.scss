@@ -1,0 +1,37 @@
+.landingpage {
+    display: grid;
+    gap: 2em 3em;
+    padding: 1em 2em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.kmom-box.project {
+    grid-column: span 3;
+}
+
+.kmom-box a {
+    width: 100%;
+    background-color: #367f36;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .landingpage h1,
+    .kmom-box,
+    .kmom-box.project {
+        grid-column: span 1;
+    }
+}

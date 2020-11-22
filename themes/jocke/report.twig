@@ -47,9 +47,6 @@
                         {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                             <li{% if page.id == current_page.id %} class="active"{% endif %}>
                                 <a href="{{ page.url }}">{{ page.title }}</a>
-                                {# <a href="index"><i class="fas fa-home"></i></a>
-                                <a href="about"><i class="far fa-question-circle"></i></a>
-                                <a href="report"><i class="fas fa-scroll"></i></a>                                 #}
                             </li>
                         {% endfor %}
                     </ul>
@@ -57,12 +54,12 @@
             </div>
         </div>
     </div>
-    <div class="main" role="main">
-        <div class="container">
+         <div class="main" role="main">
+            <div class="landingpage">
             {{ content }}
+            </div>
         </div>
-    </div>
-    <div class="footer">
+     <div class="footer">
         <div class="container">
             <div class="social">
                 <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->

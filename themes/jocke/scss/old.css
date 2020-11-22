@@ -72,7 +72,7 @@ body {
 /*** BASIC LAYOUT: HEADER ***/
 
 .header {
-    background: #e8ffe8;
+    background-image: '../../../assets/img/skyline_gamleby.jpg';
 }
 
 .title, .logo {
