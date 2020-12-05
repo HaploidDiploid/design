@@ -10,8 +10,8 @@
 }
 
 .kmom-text {
-    border: 1px solid $border-color;
-    grid-column: span 1;
+    grid-column: span 2;
+    display: grid;
     align-self: center;
     justify-self: center;
     flex-direction: column;

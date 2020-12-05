@@ -23,5 +23,5 @@ Around 34 years later, the text you're reading right now was written.
 I'm currently working on understanding SCSS and trying to use markdown for making pretty websites that people can actually use. I love it.
 
 
-![This guy wrote this stuff, what a dork!](%assets_url%/img/nyper_ett_berg.jpg "Not the greatest disaster to happen in 1986, but not far off.")
+![This guy wrote this stuff, what a dork!](%assets_url%/img/nyper_ett_berg.jpg "Not the greatest disaster to happen in 1986, but not far off."){.meimg}
 Just look at me, I'm happy as a slinky on an escalator!

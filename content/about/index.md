@@ -9,12 +9,12 @@ About this page
 This is the about- page! Make yourself at home. Sit down, relax, have a warm beverage and enjoy!    
 Consider yourself lucky to be able to sit down and read this page of about-ness.     
 After all, we're just biological computers sending electrical impulses though our carbon- based processor, stuck on the ambulant and versatile motherboard we call our bodies. We're temporary, and really, we should be.     
-I think the late, great Carl Sagan said it best when he so poetically described our planet, our home, ourselves, as a **"[pale blue dot](https://www.planetary.org/worlds/pale-blue-dot)"** in our vast galaxy. The images sent back from the Voyager ship gave us perspective on our infinitesimally miniscule size compared to our Galaxy and the Universe in which it all resides. 
+I think the late, great Carl Sagan said it best when he so poetically described our planet, our home, ourselves, as a **"[pale blue dot](https://www.planetary.org/worlds/pale-blue-dot)"** in our vast galaxy. The images sent back from the Voyager ship gave us perspective on our infinitesimally miniscule size compared to our Galaxy and the Universe in which it all resides.    
 
-> Look again at that dot. That's here. That's home. That's us. 
->On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. 
->The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there
->--on a mote of dust suspended in a sunbeam.   
+> *Look again at that dot. That's here. That's home. That's us. *     
+> *On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. *    
+> *The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there*     
+> *--on a mote of dust suspended in a sunbeam.   *     
 > **-Carl Sagan**
 
 Anyway, enough existentialism for now. *what did you do with this project, Joacim?*

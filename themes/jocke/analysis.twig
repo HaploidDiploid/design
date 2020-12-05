@@ -18,19 +18,19 @@
     {% endif %}
 
     {% if config.session.theme == "dark" %}
-    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
     {% else %}
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
     {% endif %}
 
 </head>
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
-    {% if config.session.theme == "dark" %}
+    {# {% if config.session.theme == "dark" %}
     <div class="header" role="banner" style="background-image: url('assets/img/skyline_gamleby_red.jpg');">
-    {% else %}
-    <div class="header" role="banner" style="background-image: url('assets/img/skyline_gamleby.jpg');">
-    {% endif %}
+    {% else %} #}
+    <div class="header" role="banner" style="background-image: url('../assets/img/skyline_gamleby.jpg');">
+    {# {% endif %} #}
         <div class="container">
             <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
@@ -63,7 +63,7 @@
         </div>
     </div>
          <div class="main" role="main">
-            <div class="landingpage">
+            <div class="analysis">
             {{ content }}
             </div>
         </div>

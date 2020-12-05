@@ -1,5 +1,5 @@
 @import 'common';
-@import 'variables';
+@import 'variables-dark';
 @import 'typography';
 
 @import 'header';
@@ -34,6 +34,7 @@ a {
 
 .meimg {
     max-width: 60%;
+    filter: grayscale(40%);
 }
 
 .html,
@@ -43,6 +44,7 @@ body {
 
 .header {
     background-image: '../../../assets/img/skyline_gamleby.jpg';
+    filter: hue-rotate(180deg);
 }
 
 .nav {

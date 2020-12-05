@@ -1,7 +1,7 @@
 .landingpage {
     display: grid;
     gap: 2em 3em;
-    padding: 1em 2em;
+    padding: 0.5em 3em;
 }
 
 .landingpage h1 {
@@ -9,8 +9,18 @@
     justify-self: center;
 }
 
+.analysis {
+    display: column;
+    gap: 6em 6em;
+    padding: 1em 25em;
+}
+
+.analysis h1 {
+    justify-self: center;
+}
+
 .kmom-box {
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid $border-color;
     grid-column: span 1;
     display: flex;
     flex-direction: column;
@@ -24,8 +34,12 @@
 
 .kmom-box a {
     width: 100%;
-    background-color: #367f36;
+    background-color: $accent-color;
     text-align: center;
+}
+
+img {
+    max-width: 50em;
 }
 
 @media (max-width: 767px) {
@@ -33,5 +47,13 @@
     .kmom-box,
     .kmom-box.project {
         grid-column: span 1;
+    }
+
+    img {
+        max-width: 25em;
+    }
+
+    .analysis {
+        padding-left: 1em;
     }
 }

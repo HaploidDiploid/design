@@ -6468,7 +6468,7 @@ body {
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  color: #020e06;
+  color: #f1f1f1;
 }
 
 p td th li dd {
@@ -6478,13 +6478,13 @@ p td th li dd {
 }
 
 a {
-  color: #091308;
+  color: #ebb5b1;
   text-decoration: none;
   transition: color 0.2s ease-in;
 }
 
 a:hover {
-  color: #095f06;
+  color: #963112;
 }
 
 h1,
@@ -6498,7 +6498,7 @@ h6 {
   font-family: "Ubuntu", sans-serif;
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: #020e06;
+  color: #f1f1f1;
 }
 
 h1 {
@@ -6532,9 +6532,9 @@ img {
 }
 
 hr {
-  border: 0.15em solid transparent;
+  border: 0.15em solid #b9a591;
   border-radius: 0.3em;
-  background: transparent;
+  background: #b9a591;
 }
 
 abbr {
@@ -6549,7 +6549,7 @@ abbr {
 
 .title * {
   margin: 0;
-  color: #020e06;
+  color: #f1f1f1;
 }
 
 .title p {
@@ -6596,16 +6596,16 @@ abbr {
 }
 
 .nav a .nav-toggle {
-  color: #333;
+  color: #6b1900;
 }
 
 .nav,
 .active a .nav a:hover .nav-toggle:hover {
-  color: #095f06;
+  color: #963112;
 }
 
 .nav a:hover .nav-toggle:hover {
-  color: #095f06;
+  color: #963112;
   text-decoration: underline;
 }
 
@@ -6658,7 +6658,7 @@ abbr {
 /*** BASIC LAYOUT ***/
 html body {
   height: 100%;
-  background-color: #ccfdc9;
+  background-color: #0d160c;
 }
 
 body {
@@ -6689,16 +6689,16 @@ body {
 }
 
 .footer {
-  background: #367f36;
-  color: #c0c0c0;
+  background: #ef6a42;
+  color: #ebb5b1;
 }
 
 .footer a {
-  color: #091308;
+  color: #ebb5b1;
 }
 
 .footer a:hover {
-  color: #095f06;
+  color: #963112;
 }
 
 .footer p {
@@ -6735,7 +6735,7 @@ body {
 }
 
 .kmom-box {
-  border: 1px solid transparent;
+  border: 1px solid #b9a591;
   grid-column: span 1;
   display: flex;
   flex-direction: column;
@@ -6749,7 +6749,7 @@ body {
 
 .kmom-box a {
   width: 100%;
-  background-color: #367f36;
+  background-color: #ef6a42;
   text-align: center;
 }
 
@@ -6784,7 +6784,7 @@ img {
 }
 
 .kmom-text {
-  border: 1px solid transparent;
+  border: 1px solid #b9a591;
   grid-column: span 1;
   align-self: center;
   justify-self: center;
@@ -6859,45 +6859,47 @@ h6 {
   font-family: "Open Sans", sans-serif;
   font-family: "Oxygen", sans-serif;
   font-family: "Ubuntu", sans-serif;
-  color: #020e06;
+  color: #f1f1f1;
 }
 
 a {
-  color: #091308;
+  color: #ebb5b1;
 }
 
 .meimg {
   max-width: 60%;
+  filter: grayscale(40%);
 }
 
 .html,
 body {
-  background-color: #ccfdc9;
+  background-color: #0d160c;
 }
 
 .header {
   background-image: "../../../assets/img/skyline_gamleby.jpg";
+  filter: hue-rotate(180deg);
 }
 
 .nav {
-  color: #020e06;
+  color: #f1f1f1;
 }
 
 .main {
-  background-color: #ccfdc9;
-  color: #020e06;
+  background-color: #0d160c;
+  color: #f1f1f1;
 }
 
 .footer {
-  background-color: #367f36;
+  background-color: #ef6a42;
 }
 
 .kmom-sidenav a {
-  color: #091308;
+  color: #ebb5b1;
 }
 
 .kmom-box a {
-  background-color: #367f36;
+  background-color: #ef6a42;
 }
 
 .meimg {

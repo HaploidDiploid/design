@@ -5,10 +5,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass jocke/scss/style.scss jocke/css/style.css --no-source-map",
-    "style-min": "sass jocke/scss/style.scss jocke/css/style.min.css --no-source-map --style compressed",
     "watch": "sass jocke/scss/style.scss jocke/css/style.css --no-source-map --watch",
-    "watch-min": "sass jocke/scss/style.scss jocke/css/style.min.css --no-source-map --style compressed --watch"
+    "watch-dark": "sass jocke/scss/style-dark.scss jocke/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass jocke/scss/style.scss jocke/css/style.min.css --no-source-map --style compressed --watch",
+    "style": "npm run style-light && npm run style-dark",
+    "style-dark": "sass jocke/scss/style-dark.scss jocke/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass jocke/scss/style-dark.scss jocke/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass jocke/scss/style.scss jocke/css/style.css --no-source-map",
+    "style-light-min": "sass jocke/scss/style.scss jocke/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

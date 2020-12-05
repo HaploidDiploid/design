@@ -17,12 +17,20 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
+    {% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% else %}
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
 
 </head>
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
+    {# {% if config.session.theme == "dark" %}
     <div class="header" role="banner" style="background-image: url('assets/img/skyline_gamleby.jpg');">
+    {% else %} #}
+    <div class="header" role="banner" style="background-image: url('assets/img/skyline_gamleby.jpg');">
+    {# {% endif %} #}
         <div class="container">
             <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
@@ -49,15 +57,17 @@
                                 <a href="{{ page.url }}">{{ page.title }}</a>
                                 {# <a href="index"><i class="fas fa-home"></i></a>
                                 <a href="about"><i class="far fa-question-circle"></i></a>
-                                <a href="report"><i class="fas fa-scroll"></i></a>                                 #}
+                                <a href="report"><i class="fas fa-scroll"></i></a> #}
                             </li>
                         {% endfor %}
                     </ul>
+
                 </div>
             </div>
         </div>
     </div>
     <div class="main" role="main">
+        {# {{ dump( config.session ) }} #}
         <div class="container">
             {{ content }}
         </div>

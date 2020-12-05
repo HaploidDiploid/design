@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/logo.jpg
+Logo: assets/img/JHat.png
 Tagline: Yes. It's me.
 Social:
     - title: My Github repo.
@@ -23,4 +23,10 @@ Social:
     - title: Find me on my Discord server!
       url: https://discord.gg/AWy8v8Zm
       icon: fas fa-envelope
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash
 ---
