@@ -1,6 +1,7 @@
 ---
 Title: Home
 Description: Index- page
+icon: fas fa-home
 ---
 
 Presentation page

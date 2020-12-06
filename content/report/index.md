@@ -2,6 +2,7 @@
 Title: Report
 Description: The course report page
 Template: report
+icon: fas fa-table
 ---
 
 Report

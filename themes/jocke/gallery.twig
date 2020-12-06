@@ -55,6 +55,9 @@
                         {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                             <li{% if page.id == current_page.id %} class="active"{% endif %}>
                                 <a href="{{ page.url }}">{{ page.title }}</a>
+                                {# <a href="index"><i class="fas fa-home"></i></a>
+                                <a href="about"><i class="far fa-question-circle"></i></a>
+                                <a href="report"><i class="fas fa-scroll"></i></a> #}
                             </li>
                         {% endfor %}
                     </ul>
@@ -64,7 +67,19 @@
         </div>
     </div>
     <div class="main" role="main">
-        {# {{ dump( config.session ) }} #}
+        <div class="gallery">
+            {% for image in meta.images %}
+            <div>
+                <a href="{{ base_url }}/image/gallery/{{ image.url }}" target="_blank">
+                    <picture>
+                        <source media="(min-width: 668px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}">
+                        <source media="(min-width: 376px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}&w=667">
+                        <img src="{{ base_url }}/image/gallery/{{ image.url }}&w=375" alt="{{ image.alt }}">
+                    </picture>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
         <div class="container">
             {{ content }}
         </div>
