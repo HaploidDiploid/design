@@ -2,6 +2,9 @@
 Title: Home
 Description: Index- page
 icon: fas fa-home
+images:
+    - alt: Not the greatest disaster to happen in 1986
+      url: nyper_ett_berg.jpg?crop-to-fit&aspect-ratio=16:10
 ---
 
 Presentation page
@@ -22,7 +25,3 @@ It hadn't been a great year so far, for Sweden, or the world as a whole, for tha
 ...And then, in August, **I** was born.    
 Around 34 years later, the text you're reading right now was written.
 I'm currently working on understanding SCSS and trying to use markdown for making pretty websites that people can actually use. I love it.
-
-
-![This guy wrote this stuff, what a dork!](%assets_url%/img/nyper_ett_berg.jpg "Not the greatest disaster to happen in 1986, but not far off."){.meimg}
-Just look at me, I'm happy as a slinky on an escalator!

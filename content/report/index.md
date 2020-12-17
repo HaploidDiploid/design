@@ -25,7 +25,7 @@ Report
     <p>Färgteori och Darkmode</p>
 </div>
 <div class="kmom-box">
-    <a href="#"><h2>Kmom05</h2></a><br>
+    <a href="report/kmom05"><h2>Kmom05</h2></a><br>
     <p>Kortfattad sammanfattning om kursmomentet</p>
 </div>
 <div class="kmom-box">

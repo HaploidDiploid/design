@@ -67,6 +67,17 @@
         {# {{ dump( config.session ) }} #}
         <div class="container">
             {{ content }}
+            {% for image in meta.images %}
+            <div>
+                <a href="{{ base_url }}/image/{{ image.url }}" target="_blank">
+                    <picture>
+                        <source media="(min-width: 668px)" srcset="{{ base_url }}/image/{{ image.url }}">
+                        <source media="(min-width: 376px)" srcset="{{ base_url }}/image/{{ image.url }}&w=667">
+                        <img src="{{ base_url }}/image/{{ image.url }}" alt="{{ image.alt }}">
+                    </picture>
+                </a>
+            </div>
+            {% endfor %}
         </div>
     </div>
     <div class="footer">
