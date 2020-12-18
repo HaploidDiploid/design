@@ -4,7 +4,7 @@ Description: Index- page
 icon: fas fa-home
 images:
     - alt: Not the greatest disaster to happen in 1986
-      url: nyper_ett_berg.jpg?crop-to-fit&aspect-ratio=16:10
+      url: nyper_ett_berg.webp?crop-to-fit
 ---
 
 Presentation page

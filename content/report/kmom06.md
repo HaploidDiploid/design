@@ -19,7 +19,7 @@ Kmom06
 <div class="kmom-text">
     <h3>Frågor och svar:</h3>
     <h4></h4>
-    <p></p>
+    <p>tog bort 'aria hidden true'- delen. Satte länkar i footer till bold för att få bra kontrast.</p>
     <h4></h4>
     <p></p>
     <h4></h4>

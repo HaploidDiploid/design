@@ -6552,6 +6552,10 @@ abbr {
   color: #020e06;
 }
 
+img:not([alt]) {
+  outline: 4px #f00c0c dashed !important;
+}
+
 .title p {
   font-style: italic;
 }
@@ -6690,11 +6694,13 @@ body {
 
 .footer {
   background: #367f36;
-  color: #c0c0c0;
+  color: #ffffff;
+  font-size: 14pt;
 }
 
 .footer a {
   color: #091308;
+  font-size: 14pt;
 }
 
 .footer a:hover {
@@ -6899,7 +6905,7 @@ body {
 }
 
 .header {
-  background-image: "../../../assets/img/skyline_gamleby.jpg";
+  background-image: "../../../assets/img/skyline_gamleby.webp";
 }
 
 .nav {
